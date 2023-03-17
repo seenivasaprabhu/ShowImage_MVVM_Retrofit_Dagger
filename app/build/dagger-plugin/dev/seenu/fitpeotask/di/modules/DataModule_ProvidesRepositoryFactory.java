@@ -1,0 +1,38 @@
+package dev.seenu.fitpeotask.di.modules;
+
+import dagger.internal.Factory;
+import dagger.internal.Preconditions;
+import dev.seenu.fitpeotask.api.ApiService;
+import dev.seenu.fitpeotask.data.repository.Repository;
+import javax.annotation.processing.Generated;
+import javax.inject.Provider;
+
+@Generated(
+    value = "dagger.internal.codegen.ComponentProcessor",
+    comments = "https://dagger.dev"
+)
+@SuppressWarnings({
+    "unchecked",
+    "rawtypes"
+})
+public final class DataModule_ProvidesRepositoryFactory implements Factory<Repository> {
+  private final Provider<ApiService> apiServiceProvider;
+
+  public DataModule_ProvidesRepositoryFactory(Provider<ApiService> apiServiceProvider) {
+    this.apiServiceProvider = apiServiceProvider;
+  }
+
+  @Override
+  public Repository get() {
+    return providesRepository(apiServiceProvider.get());
+  }
+
+  public static DataModule_ProvidesRepositoryFactory create(
+      Provider<ApiService> apiServiceProvider) {
+    return new DataModule_ProvidesRepositoryFactory(apiServiceProvider);
+  }
+
+  public static Repository providesRepository(ApiService apiService) {
+    return Preconditions.checkNotNullFromProvides(DataModule.INSTANCE.providesRepository(apiService));
+  }
+}

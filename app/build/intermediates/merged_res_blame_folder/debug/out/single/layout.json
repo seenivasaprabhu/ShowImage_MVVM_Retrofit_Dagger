@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\Projects\\Demo\\Fitpeo\\FitPeoImageShower\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_images_list.xml",
+        "source": "E:\\Projects\\Demo\\Fitpeo\\FitPeoImageShower\\app\\src\\main\\res\\layout\\fragment_images_list.xml"
+    },
+    {
+        "merged": "E:\\Projects\\Demo\\Fitpeo\\FitPeoImageShower\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "E:\\Projects\\Demo\\Fitpeo\\FitPeoImageShower\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Projects\\Demo\\Fitpeo\\FitPeoImageShower\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_single_image.xml",
+        "source": "E:\\Projects\\Demo\\Fitpeo\\FitPeoImageShower\\app\\src\\main\\res\\layout\\fragment_single_image.xml"
+    },
+    {
+        "merged": "E:\\Projects\\Demo\\Fitpeo\\FitPeoImageShower\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\network_state_item.xml",
+        "source": "E:\\Projects\\Demo\\Fitpeo\\FitPeoImageShower\\app\\src\\main\\res\\layout\\network_state_item.xml"
+    },
+    {
+        "merged": "E:\\Projects\\Demo\\Fitpeo\\FitPeoImageShower\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\image_item.xml",
+        "source": "E:\\Projects\\Demo\\Fitpeo\\FitPeoImageShower\\app\\src\\main\\res\\layout\\image_item.xml"
+    }
+]
